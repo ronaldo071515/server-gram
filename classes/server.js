@@ -4,7 +4,7 @@ const express = require('express');
 class Server {
      
     app = express();
-    port = 3000;
+    port =  process.env.PORT || 3000;
 
     constructor() {
         this.app = express();
