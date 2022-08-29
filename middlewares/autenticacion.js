@@ -1,4 +1,4 @@
-const Token = require("../classes/token.js");
+const Token = require("../classes/token");
 
 const token = new Token();
 

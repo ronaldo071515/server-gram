@@ -1,9 +1,9 @@
 const { Router } = require('express');
 
-const FileSystem = require('../classes/file-system.js');
+const FileSystem = require('../classes/file-system');
 
-const { verificaToken } = require('../middlewares/autenticacion.js');
-const Post = require('../models/post.model.js');
+const { verificaToken } = require('../middlewares/autenticacion');
+const Post = require('../models/post.model');
 
 const fileSytem = new FileSystem();
 

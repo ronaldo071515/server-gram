@@ -1,9 +1,9 @@
 const { Router } = require('express');
 const bcrypt = require('bcrypt');
 
-const Usuario = require('../models/Usuario.model.js');
-const Token = require('../classes/token.js');
-const { verificaToken } = require('../middlewares/autenticacion.js');
+const Usuario = require('../models/usuario.model');
+const Token = require('../classes/token');
+const { verificaToken } = require('../middlewares/autenticacion');
 
 const userRoutes = Router();
 

@@ -3,10 +3,10 @@ const express = require('express');
 const fileUpload = require('express-fileupload');
 const cors = require('cors');
 
-const Server = require('./classes/server.js');
+const Server = require('./classes/server');
 
-const userRoutes = require('./routes/usuario.js');
-const postRoutes = require('./routes/post.js');
+const userRoutes = require('./routes/usuario');
+const postRoutes = require('./routes/post');
 
 //console.log('ygqKsOEAEo8DAW0B');
 
