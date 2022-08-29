@@ -28,7 +28,7 @@ server.app.use('/api', postRoutes);
 
 //Conectar DB
 const conectarDB = async() => {
-    const uri = 'mongodb+srv://ronaldo:ygqKsOEAEo8DAW0B@cluster0.fkkit.mongodb.net/fotosgram';
+    const uri = 'URI';
     try {
         const db = await mongoose.connect(uri);
         const url = `${ db.connection.host }:${ db.connection.port }`;
